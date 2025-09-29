@@ -99,6 +99,32 @@ nav:
   # Sub-pages can be listed as nested items
   # Documentation reference (https://www.mkdocs.org/user-guide/configuration/#nav)
 
+  - Contributing:          
+        - Contributing overview:     pages/contributing/index.md
+        - Edit this Documentation: pages/contributing/Edit-Config-Docs.md
+  - Rose/Cylc Suites:          
+        - Rose/Cylc suites overview:     pages/rose-cylc-suites/overview.md
+        - Regional Ancillary Suite:     pages/rose-cylc-suites/rose-cylc-ras.md
+        - OSTIA Ancillary Suite:     pages/rose-cylc-suites/rose-cylc-oas.md
+        - Regional Nesting Suite:     pages/rose-cylc-suites/rose-cylc-rns.md
+  - Configuration tutorials:          
+        - Configurations overview:    pages/configurations/overview.md
+        - Single-level nest (starter):    pages/configurations/single-nest.md
+        - Double-level nest (starter):    pages/configurations/double-nest.md
+        - Modify a double-level nest (advanced):    pages/configurations/modify-nest.md
+        - Multi-level nest (advanced):    pages/configurations/multi-level-nest.md
+  - Executables:          
+        - Executables overview:    pages/executables/overview.md
+  - Model outputs:          
+        - Model outputs overview:    pages/outputs/overview.md
+  - Testing versus production runs:          
+        - Testing versus production runs overview:    pages/runs/overview.md
+  - Troubleshooting:          
+        - Troubleshooting overview:    pages/troubleshooting/overview.md
+        - NaN errors:    pages/troubleshooting/nan_errors.md
+        - No land:    pages/troubleshooting/no_land.md
+        - Stuck cylc:    pages/troubleshooting/stuck_cylc.md
+
 # Footer
 extra:
   generator: false
