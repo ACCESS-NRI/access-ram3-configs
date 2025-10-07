@@ -16,7 +16,7 @@ The simplest and fastest way to make a change to an _existing_ page is to click 
 !!! tip
     This method allows you create whole new pages, and to preview the changes rendered into a website. It does not require you to install any software, but is **only available for people with write access to [`access-ram3-configs`](https://github.com/ACCESS-NRI/access-ram3-configs)**.<br>
 
-Create a new branch, e.g. `jblogs/doc-update`, make doc changes (the documentation sources are in [github.com/ACCESS-NRI/access-ram3-configs/tree/main/documentation](https://github.com/ACCESS-NRI/access-ram3-configs/tree/main/documentation)), then open a related PR and a GitHub preview will be made automatically.
+Create a new branch, e.g. `<github username>/doc-update`, make doc changes (the documentation sources are in [github.com/ACCESS-NRI/access-ram3-configs/tree/main/documentation](https://github.com/ACCESS-NRI/access-ram3-configs/tree/main/documentation)), then open a related PR and a GitHub preview will be made automatically.
 
 ### Larger contributions (`mkdocs` offline)
 !!! tip

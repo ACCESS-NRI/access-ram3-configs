@@ -102,28 +102,36 @@ nav:
   - Contributing:          
         - Contributing overview:     pages/contributing/index.md
         - Edit this Documentation: pages/contributing/Edit-Config-Docs.md
-  - Rose/Cylc Suites:          
-        - Rose/Cylc suites overview:     pages/rose-cylc-suites/overview.md
-        - Regional Ancillary Suite:     pages/rose-cylc-suites/rose-cylc-ras.md
-        - OSTIA Ancillary Suite:     pages/rose-cylc-suites/rose-cylc-oas.md
-        - Regional Nesting Suite:     pages/rose-cylc-suites/rose-cylc-rns.md
+  - Upgrade overview:          
+        - ACCESS-rAM3 version 1.0 versus version 2.0:    pages/version1p0_cf_version2p0/index.md
   - Configuration tutorials:          
-        - Configurations overview:    pages/configurations/overview.md
-        - Single-level nest (starter):    pages/configurations/single-nest.md
-        - Double-level nest (starter):    pages/configurations/double-nest.md
-        - Modify a double-level nest (advanced):    pages/configurations/modify-nest.md
-        - Multi-level nest (advanced):    pages/configurations/multi-level-nest.md
+        - Configurations overview:    pages/configurations/index.md
+        - Single-level nest (simplify):    pages/configurations/single-nest.md
+        - Change the date/time: pages/configurations/change-the-datetime.md
+        - Modify a nest definition (advanced):    pages/configurations/modify-nest.md
+  - Driving model:          
+        - Initial conditions overview:    pages/initial_conditions/index.md
+        - Replace Land/Surface:    pages/initial_conditions/initial_conditions_land_surface.md
+        - Replace SST/Sea-ice:    pages/initial_conditions/initial_conditions_sst_seaice.md
   - Executables:          
-        - Executables overview:    pages/executables/overview.md
+        - Executables overview:    pages/executables/index.md
   - Model outputs:          
-        - Model outputs overview:    pages/outputs/overview.md
+        - Model outputs overview:    pages/model_outputs/index.md
+        - Toggle optional STASHpacks:    pages/model_outputs/toggle_stashpacks.md
+        - View optional STASHpack contents via UI: pages/model_outputs/view_stashpack_contents_via_ui.md
+        - Customize Master STASH:    pages/model_outputs/customize_stash.md
+        - Modify optional STASHpacks:    pages/model_outputs/modify_optional_stashpacks.md
+        - Extend STASH:    pages/model_outputs/extend_stash.md
+  - Housekeeping:
+        - Housekeeping overview:    pages/housekeeping/index.md
   - Testing versus production runs:          
-        - Testing versus production runs overview:    pages/runs/overview.md
+        - Testing versus production runs overview:    pages/runs/index.md
   - Troubleshooting:          
-        - Troubleshooting overview:    pages/troubleshooting/overview.md
+        - Troubleshooting overview:    pages/troubleshooting/index.md
         - NaN errors:    pages/troubleshooting/nan_errors.md
         - No land:    pages/troubleshooting/no_land.md
         - Stuck cylc:    pages/troubleshooting/stuck_cylc.md
+
 
 # Footer
 extra:
