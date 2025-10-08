@@ -13,20 +13,18 @@ available to Australian researchers.
 
 A rose/cylc suite has been developed to transform the OSTIA data from its native netCDF format to the required UM ancillary file format for use in the RNS.
 
-The suite is called `u-dk517`.
+### Get the OAS
+
+To get the suite,   _rosie checkout **u-dk517**_
 
 To **replace** SST and sea-ice with OSTIA values there are two steps required:
 
-1) [run the OSTIA ancillary suite (OAS)](#modify-the-oas) for the dates required.
+1) [modify the OSTIA ancillary suite (OAS)](#modify-the-oas) for the dates required.
 
 2) [modify the RNS](#modify-the-rns) to use the OSTIA files including providing the path to them. 
 
 
 ### Modify the OAS
-
-The OAS suite id is: `u-dk517`.
-
-To get the suite,   _rosie checkout **u-dk517**_
 
 OSTIA data is required for each day of the run in your experiment (plus sometimes the day prior, depending on start/end times).
 

@@ -102,30 +102,28 @@ nav:
   - Contributing:          
         - Contributing overview:     pages/contributing/index.md
         - Edit this Documentation: pages/contributing/Edit-Config-Docs.md
-  - Upgrade overview:          
-        - ACCESS-rAM3 version 1.0 versus version 2.0:    pages/version1p0_cf_version2p0/index.md
-  - Configuration tutorials:          
+  - Model configuration:          
         - Configurations overview:    pages/configurations/index.md
-        - Single-level nest (simplify):    pages/configurations/single-nest.md
-        - Change the date/time: pages/configurations/change-the-datetime.md
+        - Single-level nest (simple):    pages/configurations/single-nest.md
+        - Test run (simple):    pages/configurations/test_run.md
+        - Change the date/time (moderate): pages/configurations/change-the-datetime.md
         - Modify a nest definition (advanced):    pages/configurations/modify-nest.md
-  - Driving model:          
+  - Driving information:          
         - Initial conditions overview:    pages/initial_conditions/index.md
-        - Replace Land/Surface:    pages/initial_conditions/initial_conditions_land_surface.md
-        - Replace SST/Sea-ice:    pages/initial_conditions/initial_conditions_sst_seaice.md
+        - Nesting considerations:    pages/initial_conditions/nesting_considerations.md
+        - Replace Land/Surface:    pages/initial_conditions/replace_land_surface.md
+        - Replace SST/Sea-ice:    pages/initial_conditions/replace_sst_seaice.md
   - Executables:          
         - Executables overview:    pages/executables/index.md
   - Model outputs:          
         - Model outputs overview:    pages/model_outputs/index.md
         - Toggle optional STASHpacks:    pages/model_outputs/toggle_stashpacks.md
         - View optional STASHpack contents via UI: pages/model_outputs/view_stashpack_contents_via_ui.md
-        - Customize Master STASH:    pages/model_outputs/customize_stash.md
+        - Customize non-optional STASH:    pages/model_outputs/customize_stash.md
         - Modify optional STASHpacks:    pages/model_outputs/modify_optional_stashpacks.md
         - Extend STASH:    pages/model_outputs/extend_stash.md
   - Housekeeping:
         - Housekeeping overview:    pages/housekeeping/index.md
-  - Testing versus production runs:          
-        - Testing versus production runs overview:    pages/runs/index.md
   - Troubleshooting:          
         - Troubleshooting overview:    pages/troubleshooting/index.md
         - NaN errors:    pages/troubleshooting/nan_errors.md
