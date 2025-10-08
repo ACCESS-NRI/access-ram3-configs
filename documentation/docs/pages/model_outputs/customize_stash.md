@@ -7,7 +7,7 @@
 {% set model_configurations = "/models/access-ram" %}
 {% set release_notes = "https://forum.access-hive.org.au/t/access-ram3-release-information/4308" %}
 
-# Before you get started
+### What does a STASH request involve?
 
 STASH requests involve choosing:
 

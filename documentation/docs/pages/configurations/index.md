@@ -19,3 +19,9 @@ The RNS settings define the date/times for the run, driving model, physics, outp
 ### OAS
 The RNS has a USE_OSTIA option that causes SST and sea-ice values to be updated at the start of the run, then every 06Z afterwards with OSTIA data.  The OSTIA data is expected to be stored in files pre-prepared using the OAS.  The OAS is an optional suite used to transform OSTIA data sitting on disk (in netcdf format) to the format expected by the RNS, if you choose to use it.  The OAS output directory must match the RNS OSTIA directory.  OSTIA data changes day-to-day with a separate file per date.
 
+The instructions on how to perform some common configurations are given here:
+
+- [remove a nest level (or modify the number of resolutions in a nest)](single-nest)
+- [shorten the run to test modifications](test_run)
+- [change the date time/length](change-the-datetime)
+- [alter the nest names, central position and grid sizes ](modify-nest)
