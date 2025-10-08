@@ -98,11 +98,12 @@ jobs:
 
       - name: Check mkdocs.yaml
         id: check-mkdocs
+        working-directory: ${{ env.DOC_DIR }}
         run: |
           if [[ -f mkdocs.yml ]]; then
             echo "mkdocs.yml file found."
           else
-            echo "::warning::No mkdocs.yml file found in '$(git rev-parse --abbrev-ref HEAD)'."
+            echo "::warning::No ${{ env.DOC_DIR }}/mkdocs.yml file found in '$(git rev-parse --abbrev-ref HEAD)'."
             echo "SKIP_STEP=true" >> $GITHUB_ENV
           fi
 
