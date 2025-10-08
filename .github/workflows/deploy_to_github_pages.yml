@@ -11,7 +11,7 @@ on:
   workflow_dispatch: #Action can also be triggered manually
 env:
   TZ: Australia/Canberra
-  DOC_DIR: '.'
+  DOC_DIR: 'documentation'
   BUILD_DIR: ${{ github.workspace }}/website-build
   WEBSITE_DIR: ${{ github.workspace }}/full-website
   ROOT_DOMAIN: https://access-ram3-configs.access-hive.org.au/
