@@ -159,12 +159,12 @@ jobs:
         id: get-prs-info
         working-directory: ${{ env.DOC_DIR }}
         run: |
-          # Include only open PRs, not from forks, and whose head branch is not `main`
+          # Include only open PRs whose head branch is not `main`
           open_prs=$(
             gh pr list \
             --state open \
-            --json number,title,headRepositoryOwner,headRefOid \
-            --jq 'sort_by(.number) | .[] | select( .headRefName!="main" and .headRepositoryOwner.login=="ACCESS-NRI")' \
+            --json number,title,headRefOid \
+            --jq 'sort_by(.number) | .[] | select( .headRefName!="main" )' \
           )
           
           # If open PRs are found, filter them and output the desired json object
