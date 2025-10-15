@@ -12,13 +12,13 @@ The following **replacement** higher-quality land/surface datasets exist and can
 
 ## Update the RAS 
 
-If needed, [change the RAS](/configurations/modify-nest#modify-the-ras) to have a [central position](/configurations/modify-nest#change-the-central-position-of-the-entire-nest) selected from the chosen reference dataset.
+If needed, change the RAS [central position](/configurations/modify-nest#change-the-central-position-of-the-entire-nest) to one selected from the chosen reference dataset.
 
 Ensure that the resolution of `nest 1 / resolution 1` (and `nest 1 / resolution 2` if using ERA5 driving conditions) is the same as the resolution of the chosen reference dataset (see the table above).
 
 ## Update the RNS
 
-Next, [modify the RNS](/configurations/modify-nest#modify-the-rns)
+Next, [modify the RNS](/configurations/modify-nest#modify-the-rns) to be consistent with the new RAS.
 
 ### Change the land-surface initial conditions source
 

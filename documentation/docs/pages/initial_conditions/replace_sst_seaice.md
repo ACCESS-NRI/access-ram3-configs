@@ -13,15 +13,16 @@ available to Australian researchers.
 
 A rose/cylc suite has been developed to transform the OSTIA data from its native netCDF format to the required UM ancillary file format for use in the RNS.
 
-### Get the OAS
-
-To get the suite,   _rosie checkout **u-dk517**_
-
 To **replace** SST and sea-ice with OSTIA values there are two steps required:
 
 1) [modify the OSTIA ancillary suite (OAS)](#modify-the-oas) for the dates required.
 
 2) [modify the RNS](#modify-the-rns) to use the OSTIA files including providing the path to them. 
+
+
+### Get the OAS
+
+To get the suite,   _rosie checkout **u-dk517**_
 
 
 ### Modify the OAS
@@ -47,7 +48,7 @@ To change the land-surface initial conditions source within the Rose GUI for the
 
 _suite conf &rarr; Nesting Suite &rarr; Cycling options_.
 
-Set `USE_OSTIA` to `True` and update `global_ostia_dir` to coincide with the `OSTIA_OUTPUT` directory mentioned [above](#modify-the-oas).
+Set `USE_OSTIA` to `True` and update `global_ostia_dir` to match the OAS `OSTIA_OUTPUT` directory.
 
 !!! tip
     If OSTIA ancillaries are being kept in a project other than the one used to run the RNS, add the directory to NCI_STORAGE.
