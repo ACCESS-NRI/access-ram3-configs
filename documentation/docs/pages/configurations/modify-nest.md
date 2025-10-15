@@ -59,7 +59,7 @@ To change the nested region centre within the rose GUI, navigate to _suite conf 
 For example, to set the centre of the nested region to `-12.4` / `130.8`, set the `rg01_centre` field to `-12.4` / `130.8`.
 
 !!! warning
-    When changing the land-surface initial conditions source, if using a [higher-quality land/surface initial condition](/initial_conditions/initial_conditions_land_surface) it is important to ensure that the centre of the nested region coincides with a pixel from that dataset.
+    When changing the land-surface initial conditions source, if using a [higher-quality land/surface initial condition](/initial_conditions/replace_land_surface) it is important to ensure that the centre of the nested region coincides with a pixel from that dataset.
 
 ### Change the number of resolution definitions contained within the entire nest {: .no-toc }
 To change the number of resolution definitions for the nest within the rose GUI, navigate to _suite conf &rarr; Regional Ancillary Suite &rarr; Nested region 1 setup_. Edit the `rg01_nreslns` field and click the _Save_ button ![Save button](/assets/save_button.png){: style="height:1em"}.
@@ -67,7 +67,7 @@ To change the number of resolution definitions for the nest within the rose GUI,
 
 ### Change the name of each individual "resolution" within the over-arching nest {: .no-toc }
 
-The settings for each resolution nest within a nested region is defined separately.
+The settings for each resolution nest within a nested region are defined separately.
 
 For nest 1, resolution n, navigate to:
 
@@ -81,9 +81,8 @@ For example, to set nest 1, resolution 2 name from  `d1100` to `d1000`, set the 
 
 ## Modify the RNS
 !!! warning
-    Domain-specific changes need to be consistent between RAS and RNS. For each of the configuration parameters listed above, consistently changes the RNS to match the RAS
+    Domain-specific changes need to be consistent between RAS and RNS. For each of the configuration parameters listed above, consistently change the RNS to match the RAS
 
-Changing the RAS nested region name changes where the RAS output files are stored.
 
 ### Change the nested region name {: .no-toc }
 To change the nested region name within the [Rose GUI](#rosegui), navigate to 

@@ -1,4 +1,4 @@
-When driving model is not available at the resolution of the target nest/resolution 1 the driving model is "reconfigured" onto the target nest/resolution 1.
+When driving model data is available at a resolution that is different to the target nest/resolution 1, the driving model is "reconfigured" onto the target nest/resolution 1.
 See the resolution (in degrees) of commonly used input datasets below.
 
 |dataset|resolution|
@@ -9,9 +9,9 @@ See the resolution (in degrees) of commonly used input datasets below.
 |OSTIA|0.05°|
 
 
-Hence, choices in the driving model dataset affect [nesting choices](/configurations) settings.
+Hence, choices in the driving model dataset affect [nesting choices](/configurations/modify-nest) settings.
 
 A pre-filled example based on ERA5 driving model with a 2.2km has been constructed with a double-level nest to enhance the accuracy of the run (by allowing the forecast model to "fill-in" some of missing details).
 
-This has been down to allow for other higher quality reference datasets to be used to "replace" some of the driving model initial conditions.  Hence, the double-nest allowed the opportunity to offer users to ability to use higher quality [land/surface](/initial_conditions/initial_conditions_land_surface).
-Higher quality [sea-surface temperature and sea-ice](/initial_conditions/initial_conditions_sst_seaice) conditions can also be utilized.
+This has been down to allow for other higher quality reference datasets to be used to "replace" some of the driving model initial conditions.  Hence, the double-nest allowed the opportunity to offer users to ability to use higher quality [land/surface](/initial_conditions/replace_land_surface).
+Higher quality [sea-surface temperature and sea-ice](/initial_conditions/replace_sst_seaice) conditions can also be utilized.
