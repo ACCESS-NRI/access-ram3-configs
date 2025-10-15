@@ -120,7 +120,7 @@ nav:
         - Toggle optional STASHpacks:    pages/model_outputs/toggle_stashpacks.md
         - View optional STASHpack contents via UI: pages/model_outputs/view_stashpack_contents_via_ui.md
         - Customize non-optional STASH:    pages/model_outputs/customize_stash.md
-        - Modify optional STASHpacks:    pages/model_outputs/modify_optional_stashpacks.md
+        - Modify optional STASHpacks:    pages/model_outputs/modify_stashpacks.md
         - Extend STASH:    pages/model_outputs/extend_stash.md
   - Housekeeping:
         - Housekeeping overview:    pages/housekeeping/index.md

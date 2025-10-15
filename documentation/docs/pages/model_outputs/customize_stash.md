@@ -13,7 +13,7 @@ STASH requests involve choosing:
 
 | name | description |
 |------|-------------|
-|variable|You can select from variables defined in a STASHmaster file.  Variables are grouped in Sections and have a STASHcode associated with them|
+|variable|You can select from variables defined in a STASHmaster file.  Variables are grouped in sections and have a [STASHcode](https://reference.metoffice.gov.uk/um/stash) associated with them|
 |usage profile|Usage profiles are essentially links to output stream (*files*) that the data will be written to|
 |domain profile|A spatial grid to write the data out on (may differ from the variable grid)|
 |time profile|A selection of times with the time processing (i.e. instantaneous, maximum, minimum, average, etc)|
@@ -41,6 +41,9 @@ A selection screen will appear with many sections outlined on it.  Click on a se
 Back in _um &rarr; namelist &rarr; Model Input and Output &rarr; STASH Requests and Profiles &rarr; STASH requests_, the new requests will have red *X*'s in them because they need to be filled out.
 Choose from a drop-down list the domain_profile, time_profile and usage_profile you want, then click "Save"
 
+!!! warning
+    Even if you have done everything write, the STASH request may produce no data.
+    This is because some requests are not allowed with certain versions of the model.
 
 ### add a new domain_profile, time_profile and usage_profile
 
@@ -82,8 +85,5 @@ Click on the **Add+** button.
 
 Make the relevant selections, ensuring to link it to the output stream you require (as identified by the name you configured beforehand or one that previously existed).
 
-!!! warning
-    Even if you have done everything write, the STASH request may produce no data.
-    This is because some requests are not allowed with certain versions of the model.
 
-Once you are happy with your new non-optional STASHpack, you can [add the contents to an optional stashpack](/model_outputs/modify_optional_stashpacks)
+Once you are happy with your new non-optional STASHpack, you can [add the contents to an optional stashpack](/model_outputs/modify_stashpacks)
