@@ -77,10 +77,10 @@ jobs:
         uses: access-nri/actions/.github/actions/comment@main
         with:
           message: |
-           PR Preview
-           :---:
-           🛫 The preview of PR head commit [${{ env.HEAD }}](${{ env.HEAD_URL }}) is currently being deployed.<br>The preview URL will be available once the deployment completes.<br>For further details, please check the [Actions](https://github.com/${{ github.repository }}/actions) tab.
-           ${{ needs.get-date.outputs.date }}
+            PR Preview
+            :---:
+            🛫 The preview of PR head commit [${{ env.HEAD }}](${{ env.HEAD_URL }}) is currently being deployed.<br>The preview URL will be available once the deployment completes.<br>For further details, please check the [Actions](https://github.com/${{ github.repository }}/actions) tab.
+            ${{ needs.get-date.outputs.date }}
           label: ${{ vars.PR_PREVIEW_COMMENT_LABEL }}
           token: ${{ secrets.PR_WRITE_GITHUB_TOKEN }}
 
