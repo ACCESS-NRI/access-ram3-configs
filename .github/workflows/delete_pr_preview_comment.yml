@@ -17,3 +17,4 @@ jobs:
         with:
           delete: true
           label: ${{ vars.PR_PREVIEW_COMMENT_LABEL }}
+          token: ${{ secrets.PR_WRITE_GITHUB_TOKEN }}
