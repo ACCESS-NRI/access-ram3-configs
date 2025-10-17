@@ -74,7 +74,7 @@ jobs:
     steps:
       - name: Add PR preview setup comment
         if: ${{ github.event.action != 'closed' }}
-        uses: access-nri/actions/.github/actions/comment@main
+        uses: access-nri/actions/.github/actions/comment@davide/add_comment_logs
         with:
           message: |
             PR Preview
@@ -344,7 +344,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Add PR preview setup comment
-        uses: access-nri/actions/.github/actions/comment@main
+        uses: access-nri/actions/.github/actions/comment@davide/add_comment_logs
         with:
           message: |
             PR Preview
@@ -365,7 +365,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Add PR preview failure comment
-        uses: access-nri/actions/.github/actions/comment@main
+        uses: access-nri/actions/.github/actions/comment@davide/add_comment_logs
         with:
           message: |
             PR Preview
