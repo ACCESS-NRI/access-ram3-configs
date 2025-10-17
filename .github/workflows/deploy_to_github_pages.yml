@@ -82,7 +82,6 @@ jobs:
             🛫 The preview of PR head commit [${{ env.HEAD }}](${{ env.HEAD_URL }}) is currently being deployed.<br>The preview URL will be available once the deployment completes.<br>For further details, please check the [Actions](https://github.com/${{ github.repository }}/actions) tab.
             ${{ needs.get-date.outputs.date }}
           label: ${{ vars.PR_PREVIEW_COMMENT_LABEL }}
-          token: ${{ secrets.PR_WRITE_GITHUB_TOKEN }}
 
 #   Build the main website
   build-main:
@@ -354,7 +353,6 @@ jobs:
             Preview generated through the _${{ github.workflow }}_ workflow run [${{ github.run_id }}](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}).
           number: ${{ matrix.pr_number }}
           label: ${{ vars.PR_PREVIEW_COMMENT_LABEL }}
-          token: ${{ secrets.PR_WRITE_GITHUB_TOKEN }}
 
   failed-preview:
     needs: [get-date, pr-preview]
@@ -374,4 +372,3 @@ jobs:
             For more information check the [Actions](https://github.com/${{github.repository}}/actions) tab.
             ${{ needs.get-date.outputs.date }}
           label: ${{ vars.PR_PREVIEW_COMMENT_LABEL }}
-          token: ${{ secrets.PR_WRITE_GITHUB_TOKEN }}
